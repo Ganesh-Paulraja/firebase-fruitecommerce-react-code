@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "build", // Or the directory where your built React app is located
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
